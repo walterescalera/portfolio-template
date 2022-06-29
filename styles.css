@@ -19,8 +19,13 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: var(--primary-color-dark);
+  background:teal;
   z-index: 1;
+
+}
+
+nav ul{
+  float:right;
 }
 
 .menu {
@@ -39,7 +44,7 @@ body {
 }
 
 .menu-item a:hover {
-  background-color: var(--accent-color);
+  background-color:cyan;
   color: var(--primary-color-dark);
 }
 
